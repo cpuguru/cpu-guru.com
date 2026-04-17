@@ -12,15 +12,11 @@
             padding: 40px 30px;
             line-height: 1.7;
             color: #333;
-            background-color: #f8f9fc;          /* Soft off-white / very light blue-gray */
-            background-image: linear-gradient(rgba(255,255,255,0.85), rgba(255,255,255,0.85)), 
-                              url('https://source.unsplash.com/random/1600x900/?ocean,horizon'); /* Subtle ocean horizon – free & changes gently */
-            background-size: cover;
-            background-position: center;
-            background-attachment: fixed;
+            background: linear-gradient(135deg, #f0f4f8 0%, #d9e4f0 100%); /* Soft ocean-inspired gradient – fully internal */
+            min-height: 100vh;
         }
         h1, h2 {
-            color: #0a3d62;                    /* Deep navy blue – professional & calming */
+            color: #0a3d62;                    /* Deep navy – trustworthy */
         }
         h1 {
             font-size: 2.4em;
@@ -53,6 +49,14 @@
         ul {
             padding-left: 28px;
         }
+        /* Soft card sections for warmth and readability */
+        .section {
+            background: rgba(255, 255, 255, 0.95);
+            padding: 28px 32px;
+            border-radius: 10px;
+            box-shadow: 0 6px 16px rgba(10, 61, 98, 0.09);
+            margin-bottom: 35px;
+        }
         footer {
             margin-top: 60px;
             font-size: 0.9em;
@@ -60,14 +64,6 @@
             text-align: center;
             border-top: 1px solid #ddd;
             padding-top: 20px;
-        }
-        /* Card-like sections for warmth */
-        .section {
-            background: rgba(255, 255, 255, 0.92);
-            padding: 25px 30px;
-            border-radius: 8px;
-            box-shadow: 0 4px 12px rgba(10, 61, 98, 0.08);
-            margin-bottom: 35px;
         }
     </style>
 </head>
