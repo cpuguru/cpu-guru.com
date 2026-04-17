@@ -6,23 +6,38 @@
     <title>CPU Guru LLC | SBA-Certified SDVOSB</title>
     <style>
         body {
-            font-family: Arial, Helvetica, sans-serif;
-            max-width: 900px;
+            font-family: 'Segoe UI', Arial, Helvetica, sans-serif;
+            max-width: 920px;
             margin: 40px auto;
-            padding: 20px;
-            line-height: 1.6;
+            padding: 40px 30px;
+            line-height: 1.7;
             color: #333;
-            background-color: #f9f9f9;
+            background-color: #f8f9fc;          /* Soft off-white / very light blue-gray */
+            background-image: linear-gradient(rgba(255,255,255,0.85), rgba(255,255,255,0.85)), 
+                              url('https://source.unsplash.com/random/1600x900/?ocean,horizon'); /* Subtle ocean horizon – free & changes gently */
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
         }
         h1, h2 {
-            color: #0a3d62;
+            color: #0a3d62;                    /* Deep navy blue – professional & calming */
         }
         h1 {
-            border-bottom: 2px solid #0a3d62;
-            padding-bottom: 10px;
+            font-size: 2.4em;
+            border-bottom: 3px solid #0a3d62;
+            padding-bottom: 12px;
+            margin-bottom: 30px;
+        }
+        h2 {
+            font-size: 1.6em;
+            margin-top: 40px;
+            margin-bottom: 15px;
+            border-left: 5px solid #0a3d62;
+            padding-left: 15px;
         }
         p, ul {
-            margin-bottom: 20px;
+            margin-bottom: 22px;
+            font-size: 1.05em;
         }
         strong {
             color: #0a3d62;
@@ -33,9 +48,26 @@
         }
         a:hover {
             text-decoration: underline;
+            color: #1e5a9e;
         }
         ul {
-            padding-left: 25px;
+            padding-left: 28px;
+        }
+        footer {
+            margin-top: 60px;
+            font-size: 0.9em;
+            color: #666;
+            text-align: center;
+            border-top: 1px solid #ddd;
+            padding-top: 20px;
+        }
+        /* Card-like sections for warmth */
+        .section {
+            background: rgba(255, 255, 255, 0.92);
+            padding: 25px 30px;
+            border-radius: 8px;
+            box-shadow: 0 4px 12px rgba(10, 61, 98, 0.08);
+            margin-bottom: 35px;
         }
     </style>
 </head>
@@ -44,50 +76,61 @@
     <h1>CPU Guru LLC</h1>
     <p><strong>SBA-Certified Service-Disabled Veteran-Owned Small Business (SDVOSB)</strong></p>
 
-    <h2>Company Overview</h2>
-    <p>Founded by Doug White, U.S. Navy Veteran (Nuclear Electronics Technician) with 27+ years leading secure research computing and grant-funded IT projects at the University of Delaware (retired 2024). Now bridging that expertise with Space Operations knowledge from the Embry-Riddle Aeronautical University program. We specialize in secure, mission-critical computing environments and one-stop data platforms for the research community.</p>
+    <div class="section">
+        <h2>Company Overview</h2>
+        <p>Founded by Douglas A. White, U.S. Navy Veteran (Nuclear Electronics Technician) with 27+ years leading secure research computing and grant-funded IT projects at the University of Delaware (retired 2024). Now bridging that expertise with Space Operations knowledge from the Embry-Riddle Aeronautical University program. We specialize in secure, mission-critical computing environments and one-stop data platforms for the research community.</p>
+    </div>
 
-    <h2>How We Help</h2>
+    <div class="section">
+        <h2>How We Help</h2>
+        <p><strong>Secure Research Data Systems & Cloud Migration</strong><br>
+        We design and implement secure data repositories and cloud solutions for scientific research and federal programs.</p>
 
-    <p><strong>Secure Research Data Systems & Cloud Migration</strong><br>
-    We design and implement secure data repositories and cloud solutions for scientific research and federal programs.</p>
+        <p><strong>Grant IT Sections & Post-Award Guidance</strong><br>
+        Assistance writing clear IT sections for NSF, NOAA, ONR, and other federal proposals, plus advisory support for infrastructure setup.</p>
 
-    <p><strong>Grant IT Sections & Post-Award Guidance</strong><br>
-    Assistance writing clear IT sections for NSF, NOAA, ONR, and other federal proposals, plus advisory support for infrastructure setup.</p>
+        <p><strong>Research Vessel IT & Scheduling Systems</strong><br>
+        Specialized support for research vessel operations, data systems, and international scheduling (maintainer of researchvessels.org).</p>
 
-    <p><strong>Research Vessel IT & Scheduling Systems</strong><br>
-    Specialized support for research vessel operations, data systems, and international scheduling (maintainer of researchvessels.org).</p>
+        <p><strong>Space Operations Technical Support & Training</strong><br>
+        Technical consulting and training bridging research computing with space domain awareness and secure operations.</p>
+    </div>
 
-    <p><strong>Space Operations Technical Support & Training</strong><br>
-    Technical consulting and training bridging research computing with space domain awareness and secure operations.</p>
+    <div class="section">
+        <h2>Selected Past Performance</h2>
+        <p><strong>Managed as Principal Investigator or Co-Principal Investigator at the University of Delaware (1997–2024)</strong></p>
+        <ul>
+            <li><strong>ONR N00014-19-1-2448</strong> – $1.15M (PI) – Oceanographic research computing infrastructure</li>
+            <li><strong>ONR N00014-23-1-2154</strong> – $218K (PI) – Completed Nov 9, 2024</li>
+            <li><strong>NSF 0634738</strong> – $375K (PI) – Global ocean observing systems</li>
+            <li><strong>NSF 0952114</strong> – $333K (PI) – Research data management platforms</li>
+            <li><strong>NSF Subaward URI 0004450/081814</strong> – $526K (PI) – Major ocean data infrastructure project</li>
+        </ul>
+    </div>
 
-    <h2>Selected Past Performance</h2>
-    <p><strong>Managed as Principal Investigator or Co-Principal Investigator at the University of Delaware (1997–2024)</strong></p>
-    <ul>
-        <li><strong>ONR N00014-19-1-2448</strong> – $1.15M (PI) – Oceanographic research computing infrastructure</li>
-        <li><strong>ONR N00014-23-1-2154</strong> – $218K (PI) – Completed Nov 9, 2024</li>
-        <li><strong>NSF 0634738</strong> – $375K (PI) – Global ocean observing systems</li>
-        <li><strong>NSF 0952114</strong> – $333K (PI) – Research data management platforms</li>
-        <li><strong>NSF Subaward URI 0004450/081814</strong> – $526K (PI) – Major ocean data infrastructure project</li>
-    </ul>
+    <div class="section">
+        <h2>Key Credentials</h2>
+        <ul>
+            <li><strong>UEI:</strong> ZJHPLSKSMA57</li>
+            <li><strong>CAGE:</strong> 125J7</li>
+            <li><strong>Delaware LLC</strong></li>
+            <li><strong>SAM Registration:</strong> Active until Jul 21, 2026</li>
+        </ul>
+    </div>
 
-    <h2>Key Credentials</h2>
-    <ul>
-        <li><strong>UEI:</strong> ZJHPLSKSMA57</li>
-        <li><strong>CAGE:</strong> 125J7</li>
-        <li><strong>Delaware LLC</strong></li>
-        <li><strong>SAM Registration:</strong> Active until Jul 21, 2026</li>
-    </ul>
+    <div class="section">
+        <h2>Download Our Capability Statement</h2>
+        <p><a href="capability-statement.pdf" target="_blank">Download PDF Capability Statement</a></p>
+    </div>
 
-    <h2>Download Our Capability Statement</h2>
-    <p><a href="capability-statement.pdf" target="_blank">Download PDF Capability Statement</a></p>
+    <div class="section">
+        <h2>Contact</h2>
+        <p><strong>Douglas A. White, Principal</strong><br>
+        Phone: 302-644-2721<br>
+        Email: <a href="mailto:dw@cpu-guru.com">dw@cpu-guru.com</a></p>
+    </div>
 
-    <h2>Contact</h2>
-    <p><strong>Douglas A. White, Principal</strong><br>
-    Phone: 302-644-2721<br>
-    Email: <a href="mailto:dw@cpu-guru.com">dw@cpu-guru.com</a></p>
-
-    <footer style="margin-top: 50px; font-size: 0.9em; color: #666; text-align: center;">
+    <footer>
         © 2026 CPU Guru LLC • All rights reserved
     </footer>
 
